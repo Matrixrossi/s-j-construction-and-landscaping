@@ -4,89 +4,88 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>S&J Construction & Landscaping | Hartlepool</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', sans-serif; }
   </style>
 </head>
-<body class="bg-white text-gray-800">
+<body class="bg-white text-gray-900">
 
-  <!-- Header -->
-  <header class="bg-gray-900 text-white shadow-md fixed top-0 w-full z-50">
+  <!-- HEADER -->
+  <header class="bg-gray-900 text-white fixed w-full z-50 shadow-lg">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold tracking-wide">S&J Construction</h1>
-      <nav class="space-x-6 text-sm uppercase font-semibold">
-        <a href="#about" class="hover:text-green-300">About</a>
-        <a href="#services" class="hover:text-green-300">Services</a>
-        <a href="#contact" class="hover:text-green-300">Contact</a>
+      <h1 class="text-xl md:text-2xl font-bold tracking-wide">S&J Construction</h1>
+      <nav class="space-x-6 text-sm font-semibold uppercase tracking-wide">
+        <a href="#about" class="hover:text-green-400">About</a>
+        <a href="#services" class="hover:text-green-400">Services</a>
+        <a href="#contact" class="hover:text-green-400">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="pt-24">
+  <!-- HERO -->
+  <section class="pt-28 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h2 class="text-5xl font-bold mb-4 text-gray-800">S&J Construction & Landscaping</h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">Professional groundwork, driveways, and landscaping services across Hartlepool & the North East. Built on quality, driven by trust.</p>
+    </div>
+  </section>
 
-    <!-- Hero -->
-    <section class="bg-gray-100 py-28 px-6 text-center">
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-5xl font-extrabold mb-4 text-gray-900">Built for Strength. Landscaped for Life.</h2>
-        <p class="text-lg text-gray-700">S&J Construction & Landscaping provides reliable, high-quality groundwork and outdoor solutions across Hartlepool and the North East.</p>
+  <!-- ABOUT -->
+  <section id="about" class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h3 class="text-3xl font-bold text-gray-800 mb-4">About Us</h3>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          S&J Construction & Landscaping is a trusted local business with a reputation for precision, safety, and long-lasting results.
+          We take pride in delivering tailored outdoor solutions for domestic and commercial clients alike — from patios and fencing to full landscaping projects.
+        </p>
       </div>
-    </section>
+      <div>
+        <img src="https://source.unsplash.com/600x400/?landscaping,construction" alt="construction image" class="rounded-lg shadow" />
+      </div>
+    </div>
+  </section>
 
-    <!-- About -->
-    <section id="about" class="py-20 bg-white px-6 max-w-6xl mx-auto">
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h3 class="text-3xl font-bold text-gray-800 mb-4">Trusted by Homeowners & Developers</h3>
-          <p class="text-gray-600 text-lg leading-relaxed">
-            With decades of combined experience, S&J delivers dependable construction and landscaping services for both residential and commercial projects.
-            From robust driveways to detailed garden redesigns, we ensure every project is completed with precision, professionalism, and pride.
-          </p>
+  <!-- SERVICES -->
+  <section id="services" class="bg-gray-50 py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-12">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-10 text-left">
+        <div class="bg-white p-6 shadow rounded-lg border-t-4 border-green-600">
+          <h4 class="text-xl font-semibold mb-2">Driveways & Groundworks</h4>
+          <p class="text-gray-700">Expertly laid driveways in tarmac, block paving, and concrete. Foundations and prep done to the highest standard.</p>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-lg">
-          <img src="https://source.unsplash.com/640x420/?construction,landscaping" alt="construction work" />
+        <div class="bg-white p-6 shadow rounded-lg border-t-4 border-green-600">
+          <h4 class="text-xl font-semibold mb-2">Landscaping & Design</h4>
+          <p class="text-gray-700">Custom outdoor spaces: turfing, decking, planting, and layout designs tailored to your home or site.</p>
+        </div>
+        <div class="bg-white p-6 shadow rounded-lg border-t-4 border-green-600">
+          <h4 class="text-xl font-semibold mb-2">Fencing & Brickwork</h4>
+          <p class="text-gray-700">Timber, composite, and decorative brickwork solutions that provide security and style to any property.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section id="services" class="bg-gray-50 py-20 px-6 max-w-7xl mx-auto">
-      <h3 class="text-4xl font-bold text-center text-gray-800 mb-12">Our Core Services</h3>
-      <div class="grid md:grid-cols-3 gap-10 text-gray-700">
-        <div class="bg-white p-6 border-l-4 border-green-600 shadow hover:shadow-md transition">
-          <h4 class="text-xl font-semibold mb-2">Driveways & Groundwork</h4>
-          <p>Concrete, block paving, gravel or resin-bound — installed with durability and finish in mind.</p>
-        </div>
-        <div class="bg-white p-6 border-l-4 border-green-600 shadow hover:shadow-md transition">
-          <h4 class="text-xl font-semibold mb-2">Landscaping Design</h4>
-          <p>Full garden makeovers, sleeper walls, artificial turf, patios, pergolas, and functional outdoor spaces.</p>
-        </div>
-        <div class="bg-white p-6 border-l-4 border-green-600 shadow hover:shadow-md transition">
-          <h4 class="text-xl font-semibold mb-2">Brickwork & Fencing</h4>
-          <p>Strong boundary walls, decorative brick features, timber or composite fencing with expert installation.</p>
-        </div>
-      </div>
-    </section>
+  <!-- CONTACT -->
+  <section id="contact" class="bg-green-700 text-white py-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
+      <p class="text-lg mb-6">We operate across Hartlepool and the North East. Reach out today for a quote or consultation.</p>
+      <p class="text-xl font-semibold">📞 07922 465500</p>
+      <p class="mb-6">✉️ <a href="mailto:info@sandjconstruction.co.uk" class="underline hover:text-white">info@sandjconstruction.co.uk</a></p>
+      <a href="mailto:info@sandjconstruction.co.uk" class="inline-block bg-white text-green-800 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Request a Quote</a>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact" class="bg-green-700 text-white py-20 px-6 text-center">
-      <h3 class="text-4xl font-bold mb-4">Get a Quote or Consultation</h3>
-      <p class="text-lg mb-6">Serving Hartlepool and the wider North East region</p>
-      <p class="text-xl font-semibold mb-2">📞 07922 465500</p>
-      <p class="text-md mb-6">Email: <a href="mailto:info@sandjconstruction.co.uk" class="underline hover:text-green-200">info@sandjconstruction.co.uk</a></p>
-      <a href="mailto:info@sandjconstruction.co.uk" class="inline-block bg-white text-green-700 px-8 py-3 rounded-full font-bold uppercase tracking-wider hover:bg-gray-100 transition">
-        Request a Call Back
-      </a>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-6 text-center text-sm">
-    <p>&copy; 2025 S&J Construction & Landscaping. All rights reserved.</p>
-    <p>Hartlepool, UK | Powered by Professional Craftsmanship</p>
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white text-sm py-6 text-center">
+    <div class="max-w-7xl mx-auto px-6">
+      <p>&copy; 2025 S&J Construction & Landscaping. All rights reserved.</p>
+      <p class="mt-2">Hartlepool, UK | Powered by precision & pride.</p>
+    </div>
   </footer>
 
 </body>
